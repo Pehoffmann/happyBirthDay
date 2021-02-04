@@ -1,0 +1,124 @@
+#nav-1 {
+    padding-left: 140vh;
+}
+
+h1 {
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#navBar{
+    border: #fff; 
+}
+
+.niver{
+   margin: auto;
+   padding-top: 10vh;
+   padding-bottom: 5vh;
+}
+
+#heart {
+    background: #556B2F;
+    color: #fff;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 6em;
+    margin-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5vh;
+  }
+  
+  .heart {
+    background-color: red;
+    display: inline-block;
+    height: 30px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
+    animation: heartbeat 1s infinite;
+    rotate: 90deg;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+  }
+  
+  .heart:before {
+    top: -15px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 15px;
+    top: 0;
+  }
+
+
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+body {
+    background:  #556B2F;
+}
+
+#mot1{
+    margin-left: 50vh;
+}
+
+#motivos{
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+#motivos h1 {
+    padding-bottom: 5vh;
+
+}
+
+#carrosel{
+    padding-top: 10vh;
+}
+
+#carrosel h1 {
+    padding-bottom: 5vh;
+}
+
+.niver p {
+    color: #fff;
+    padding-top: 5vh;
+}
